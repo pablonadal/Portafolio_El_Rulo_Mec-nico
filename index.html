@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carlos “El Rulo” Fernández — Mecánico automotriz</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <meta name="description" content="Taller Mecánico El Rulo — mecánica en general, diagnóstico, reparación y servicio de confianza en San Rafael, Mendoza.">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo" aria-hidden="true">⚙️</div>
+        <div>
+          <h1>Carlos “El Rulo” Fernández</h1>
+          <p class="subtitle">Mecánico automotriz — Taller en Barrio Constitución</p>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-controls="main-nav" aria-expanded="false">Menú</button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#sobre">Sobre mí</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#trabajos">Trabajos</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#contacto" class="contact-link">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero-grid">
+          <div class="hero-text">
+            <h2>Hacemos la mecánica como si el auto fuera nuestro</h2>
+            <p>Más de 15 años atendiendo al barrio con honestidad, rapidez y precios justos. Servicios de mecánica, diagnóstico con escáner, inyección, frenos y más.</p>
+            <p class="cta">
+              <a href="#contacto" class="btn">Contactá por WhatsApp</a>
+              <a href="#trabajos" class="btn ghost">Ver trabajos</a>
+            </p>
+          </div>
+          <div class="hero-image">
+            <img src="images/taller.png" alt="Interior del taller - imagen placeholder" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="sobre" class="section container">
+      <h3>Cómo llegué al oficio</h3>
+      <p>Desde chico me gustaron los autos. Mi viejo tenía un Falcon y siempre lo estábamos arreglando entre los dos. Con el tiempo me fui metiendo más, aprendí de un maestro mecánico del barrio y después seguí por mi cuenta. Es algo que me apasiona: escuchar un motor y saber qué le pasa.</p>
+
+      <h3>Qué me diferencia</h3>
+      <p>Lo que me distingue es el trato de confianza con el cliente. La gente del barrio me conoce: explico todo lo que hago y no cambio nada sin avisar. Además, tengo precios justos, trabajo rápido, y si el cliente está en apuros, trato de darle una mano lo antes posible.</p>
+    </section>
+
+    <section id="servicios" class="section pale">
+      <div class="container">
+        <h3>Servicios que ofrezco</h3>
+        <ul class="services-list">
+          <li>Mecánica en general</li>
+          <li>Cambio de aceite y filtros</li>
+          <li>Frenos y embragues</li>
+          <li>Inyección electrónica y diagnóstico con escáner</li>
+          <li>Alineación y balanceo</li>
+          <li>Reparación de ruidos y puesta a punto</li>
+        </ul>
+
+        <h4>Herramientas y conocimientos</h4>
+        <p>Uso herramientas manuales y eléctricas, escáner automotriz, medidor de compresión y todos los instrumentos necesarios para diagnóstico moderno. Sé de mecánica tradicional y electrónica automotriz.</p>
+      </div>
+    </section>
+
+    <section id="trabajos" class="section container">
+      <h3>Trabajos destacados</h3>
+      <div class="gallery">
+        <figure>
+          <img src="images/gol.png" alt="Reparación de motor VW Gol" loading="lazy" data-full="images/gol.png">
+          <figcaption>Reparación completa de un motor VW Gol — quedó como nuevo.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/f100.png" alt="Restauración F100 1983" loading="lazy" data-full="images/f100.png">
+          <figcaption>Restauración de una F100 del ‘83 — volvió a rodar después de 10 años.</figcaption>
+        </figure>
+        <figure>
+          <img src="images/hilux.png" alt="Puesta a punto Toyota Hilux" loading="lazy" data-full="images/hilux.png">
+          <figcaption>Ajuste y puesta a punto de una Toyota Hilux para travesías.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="testimonios" class="section pale">
+      <div class="container">
+        <h3>Testimonios</h3>
+        <blockquote>“El Rulo es de confianza, me arregló el auto en un día y me explicó todo.” – Marta G.</blockquote>
+        <blockquote>“Me salvó con el coche antes de un viaje, un genio.” – Ariel P.</blockquote>
+      </div>
+    </section>
+
+    <section id="contacto" class="section container contact-section">
+      <h3>Contacto</h3>
+      <p>📞 Teléfono/WhatsApp: <button class="link-like" id="copyPhone">2604-123456</button></p>
+      <p>📍 Dirección: Calle Italia 523, Barrio Constitución, San Rafael, Mendoza</p>
+      <p>📱 Instagram: <a href="https://instagram.com/tallerdelrulo" target="_blank" rel="noopener">@tallerdelrulo</a></p>
+
+      <form class="contact-form" onsubmit="return false;">
+        <label>Nombre
+          <input type="text" name="name" placeholder="Tu nombre">
+        </label>
+        <label>Mensaje
+          <textarea name="message" rows="4" placeholder="Contame qué le pasa al auto"></textarea>
+        </label>
+        <p><button class="btn" id="fakeSend">Enviar mensaje (simulado)</button></p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>© Carlos “El Rulo” Fernández — Taller Mecánico</div>
+      <div>Dirección: Calle Italia 523, San Rafael, Mendoza</div>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button class="lightbox-close" aria-label="Cerrar">✕</button>
+    <img class="lightbox-img" alt="Foto ampliada">
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

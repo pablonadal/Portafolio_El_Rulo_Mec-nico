@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
+  <rect width="1200" height="800" fill="#fff6ee"/>
+  <g fill="#c85f2a" opacity="0.35">
+    <rect x="60" y="120" width="420" height="280" rx="16" />
+    <rect x="720" y="140" width="360" height="260" rx="12" />
+  </g>
+  <g fill="#d98a63">
+    <rect x="80" y="140" width="380" height="40" rx="8" />
+    <rect x="740" y="160" width="280" height="30" rx="6" />
+  </g>
+  <text x="80" y="420" fill="#6b6b6b" font-size="28" font-family="Arial">Taller — imagen placeholder</text>
+</svg>
